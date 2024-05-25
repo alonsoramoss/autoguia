@@ -1,0 +1,54 @@
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.content-container {
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(236, 12, 12, 0.959);
+}
+
+.content-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 80%;
+    max-width: 700px;
+    height: 200px;
+    border: none;
+}
+
+.content-text {
+    flex-grow: 1;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+p {
+    margin: 5px 0 0;
+    color: #000000;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .content-item {
+        flex-direction: column;
+    }
+}

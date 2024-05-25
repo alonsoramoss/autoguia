@@ -1,0 +1,60 @@
+
+.brand-section {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.brand-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.brand-header h2{
+    color: white;
+}
+
+td p{
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    color: black;
+    margin: 0;
+}
+
+.brand-logo {
+    height: 26px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 200px;
+}
+
+@media (max-width: 600px) {
+    table,
+    th,
+    td {
+        font-size: 14px;
+    }
+}

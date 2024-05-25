@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+body {
+    background-image: url('../img/amigos.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(20, 20, 36, 0.671);
+    font-family: 'Nunito', sans-serif;
+    margin: 10px;
+    padding-top: 100px;
+}
+
+nav {
+    background: transparent;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 40px;
+    }
+
+    nav img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    body {
+        padding-top: 75px;
+    }
+
+    nav img {
+        width: 60px;
+        height: 57px;
+    }
+}
+
+@media (min-width: 1201px) {
+    nav img {
+        width: 90px;
+        height: 83px;
+    }
+}
