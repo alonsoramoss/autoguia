@@ -9,14 +9,14 @@ body {
     background-color: rgba(20, 20, 36, 0.671);
     font-family: 'Nunito', sans-serif;
     margin: 10px;
-    padding-top: 75px;
+    padding-top: 70px;
 }
 
 nav {
     background: transparent;
     backdrop-filter: blur(4px);
     position: fixed;
-    top: 5px;
+    top: 0;
     left: 0;
     width: 100%;
     text-align: center;
@@ -39,7 +39,7 @@ nav img {
 
 @media (max-width: 768px) {
     body {
-        padding-top: 40px;
+        padding-top: 25px;
     }
 
     nav img {
@@ -50,7 +50,7 @@ nav img {
 
 @media (min-width: 769px) and (max-width: 1200px) {
     body {
-        padding-top: 75px;
+        padding-top: 45px;
     }
 
     nav img {
