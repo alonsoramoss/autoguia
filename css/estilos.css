@@ -9,18 +9,17 @@ body {
     background-color: rgba(20, 20, 36, 0.671);
     font-family: 'Nunito', sans-serif;
     margin: 10px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 nav {
     background: transparent;
     backdrop-filter: blur(4px);
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5px;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
     z-index: 1000;
 }
 
