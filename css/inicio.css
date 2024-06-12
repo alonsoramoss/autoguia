@@ -118,6 +118,11 @@
         align-items: center;
     }
 
+    .car-fin {
+        flex-direction: row;
+        align-items: center;
+    }
+
     .car-img {
         margin-right: 20px;
     }
@@ -155,6 +160,11 @@
     }
 
     .car {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-fin {
         flex-direction: column;
         align-items: center;
     }
