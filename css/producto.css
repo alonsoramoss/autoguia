@@ -5,6 +5,13 @@
     max-width: 800px;
 }
 
+.brand-section-fin {
+    margin: 20px auto;
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 800px;
+}
+
 .brand-header {
     display: flex;
     align-items: center;

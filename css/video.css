@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .content-container {
@@ -16,12 +16,20 @@
     box-shadow: 0 2px 4px rgba(236, 12, 12, 0.959);
 }
 
+.content-container-fin {
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(236, 12, 12, 0.959);
+}
+
 .content-item {
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 iframe {

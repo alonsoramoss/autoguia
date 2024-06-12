@@ -12,6 +12,7 @@
     border-radius: 8px;
     margin-left: 20px; 
     margin-right: 20px;
+    overflow: hidden; 
 }
 
 .logo {
@@ -52,15 +53,20 @@
     margin-bottom: 20px;
 }
 
-.car-section {
-    margin: 20px 0;
-}
-
 .car {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+
+.car-fin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 8px;
@@ -78,6 +84,24 @@
 .car-description h2 {
     margin: 0;
     margin-bottom: 10px;
+}
+
+.model-lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.model-list {
+    flex:auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.model-list li {
+    padding: 0;
+    margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
@@ -103,26 +127,6 @@
     }
 }
 
-.model-lists {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.model-list {
-    flex: 1;
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 0;
-}
-
-.model-list li {
-    padding: 0;
-    margin-bottom: 5px;
-    display: list-item;
-    list-style-type: disc;
-}
-
 @media (max-width: 480px) {
     .header {
         flex-direction: row;
@@ -130,8 +134,7 @@
     }
 
     .logo {
-        width: 100px;
-        margin-right: 5px;
+        width: 70px;
     }
 
     .search-form {
@@ -154,15 +157,5 @@
     .car {
         flex-direction: column;
         align-items: center;
-    }
-
-    .model-lists {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .model-list {
-        width: 100%;
-        margin-bottom: 10px;
     }
 }
