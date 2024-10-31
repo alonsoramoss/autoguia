@@ -1,6 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    color: #000;
+    background-color: #ffb700
+}
+
+*::-moz-selection {
+    color: #000;
+    background-color: #ffb700
+}
+
 body {
     background-image: url('../img/amigos.webp');
     background-attachment: fixed;
