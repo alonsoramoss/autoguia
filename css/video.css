@@ -59,4 +59,8 @@ p {
     .content-item {
         flex-direction: column;
     }
+
+    h3{
+        text-align: center;
+    }
 }

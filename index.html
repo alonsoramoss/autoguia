@@ -13,32 +13,31 @@
     <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/link.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
 <body>
-    
-    <head>
-        <nav>
-            <a href="#inicio">
-                <img src="img/inicio.webp" alt="inicio">
-            </a>
-            <a href="#producto">
-                <img src="img/producto.webp" alt="producto">
-            </a>
-            <a href="#video">
-                <img src="img/video.webp" alt="video">
-            </a>
-            <a href="#link">
-                <img src="img/link.webp" alt="link">
-            </a>
-            <a href="#contacto">
-                <img src="img/contactanos.webp" alt="contacto">
-            </a>
-        </nav>
-    </head>
+    <nav>
+        <a href="#inicio">
+            <img src="img/inicio.webp" alt="inicio">
+        </a>
+        <a href="#producto">
+            <img src="img/producto.webp" alt="producto">
+        </a>
+        <a href="#video">
+            <img src="img/video.webp" alt="video">
+        </a>
+        <a href="#link">
+            <img src="img/link.webp" alt="link">
+        </a>
+        <a href="#contacto">
+            <img src="img/contactanos.webp" alt="contacto">
+        </a>
+    </nav>
 
     <!-- INICIO -->
     <div id="inicio" class="container">
         <header class="header">
-            <img src="img/logo2.webp" alt="Logo" class="logo">
+            <img src="img/logo.webp" alt="Logo" class="logo">
             <form class="search-form">
                 <input type="text" id="buscar" placeholder="Buscar" class="search-input">
                 <img src="img/buscador.webp" alt="Buscar" class="search-icon">
@@ -574,8 +573,17 @@
             <input type="hidden" name="_captcha" value="false">
         </form>
     </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© <script>document.write(new Date().getFullYear())</script> AutoGuia</p>
+            <a href="#inicio">Ir a Inicio</a>
+        </div>
+    </footer>
+
     <script>
-        document.querySelectorAll('nav a').forEach(anchor => {
+        document.querySelectorAll('nav a, footer a').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
     
@@ -590,5 +598,4 @@
         });
     </script>    
 </body>
-</head>
 </html>
