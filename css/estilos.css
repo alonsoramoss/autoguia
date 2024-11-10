@@ -21,15 +21,27 @@ html {
 }
 
 body {
-    background-image: url('../img/amigos.webp');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center; 
-    background-repeat: no-repeat; 
-    background-blend-mode: darken;
-    background-color: rgba(20, 20, 36, 0.671);
     font-family: 'Nunito', sans-serif;
     padding-top: 70px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/amigos.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(20, 20, 36, 0.671);
+    z-index: -1;
+    pointer-events: none;
 }
 
 nav {
