@@ -588,7 +588,7 @@
                 e.preventDefault();
     
                 const target = document.querySelector(this.getAttribute('href'));
-                const offset = 100;
+                const offset = window.innerWidth <= 768 ? 50 : 100;
     
                 window.scrollTo({
                     top: target.offsetTop - offset,
