@@ -1,9 +1,9 @@
 
 .contenedor {
-    max-width: 450px;
+    max-width: 500px;
     margin: auto;
     padding: 0 15px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .form-tittle {
@@ -39,12 +39,17 @@
     outline: none;
     border-bottom: 2px solid #efd70D;
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     margin-bottom: 12px;
     border-radius: 4px;
     font-size: 14px;
     color: #fff;
 
+}
+
+textarea {
+    width: 100%;
+    height: 100px; 
 }
 
 .btn-enviar {
@@ -66,4 +71,13 @@
 
 .btn-enviar:hover {
     background: #f297;
+}
+
+.mensaje-confirmacion {
+    display: none;
+    text-align: center;
+    color: #ff9d00;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 20px;
 }
