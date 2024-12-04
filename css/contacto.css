@@ -33,7 +33,7 @@
 }
 
 .form-input {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     background: rgba(0, 0, 0, 0.7);
     border: none;
     outline: none;
@@ -53,7 +53,7 @@ textarea {
 }
 
 .btn-enviar {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     width: 50%;
     outline: none;
     background: #efba0d;
