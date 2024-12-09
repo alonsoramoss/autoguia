@@ -12,13 +12,10 @@ footer .container {
     align-items: center;
 }
 
-footer p {
+footer p, footer a {
+    font-size: 14px;
     color: rgb(255, 255, 255);
     margin: 0;
-}
-
-footer a {
-    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
