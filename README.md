@@ -9,6 +9,6 @@ Página web que proporciona información sobre diversas marcas y modelos de auto
 
 1. Clona el repositorio
 
-       git clone https://github.com/tu-usuario/autoguia.git
+       git clone https://github.com/alonsoramoss/autoguia.git
    
 2. Abre index.html en tu navegador
