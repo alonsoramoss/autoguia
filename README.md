@@ -1,7 +1,8 @@
 # 🚗 Auto Guía  
 Página web que proporciona información sobre diversas marcas y modelos de automóviles, ayudando a los usuarios a conocer más sobre sus características y especificaciones.  
 
-![Auto Guía](https://github.com/user-attachments/assets/da6e48ac-9d56-4a7a-bd8a-8a52a3139540)  
+![autoguiadesk_github](https://github.com/user-attachments/assets/8c3d3237-f516-427e-9c3f-a963d5499c18)
+![autoguiamov_github](https://github.com/user-attachments/assets/5bc11700-f6a8-4c76-966a-fa10d81a3f6c)
 
 🔗 **Visita el sitio aquí**: [Auto Guía](https://autoguia.netlify.app)  
 
