@@ -79,29 +79,33 @@
 
 .car-description {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .car-description h2 {
     margin: 0;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.ejemplos {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .model-lists {
     display: flex;
+    text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .model-list {
     flex:auto;
-    margin-bottom: 10px;
-    padding-left: 10px;
     list-style: none;
 }
 
 .model-list li {
-    padding: 0;
     margin-bottom: 5px;
 }
 
@@ -128,7 +132,7 @@
         margin-right: 20px;
     }
 
-    .car-description {
+    .car-description, .car-description h2, .ejemplos, .model-lists {
         text-align: left;
     }
 }
