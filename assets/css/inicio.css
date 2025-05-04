@@ -1,5 +1,5 @@
 .container {
-    margin:28px auto;
+    margin: 26px auto;
     width: 100%;
     max-width: 1500px;
 }
@@ -110,6 +110,10 @@
 }
 
 @media (min-width: 768px) {
+    .container {
+        margin: 29px auto;
+    }
+
     .header {
         flex-direction: row;
     }
@@ -138,6 +142,10 @@
 }
 
 @media (max-width: 480px) {
+    .container {
+        margin: 26px auto;
+    }
+
     .header {
         flex-direction: row;
         justify-content: center;

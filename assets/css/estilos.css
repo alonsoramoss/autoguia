@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+@font-face {
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito.woff2') format('woff2');
+    font-display: swap;
+}
 
 * {
     margin: 0;
@@ -6,22 +10,47 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 *::selection {
     color: #000;
-    background-color: #ffb700
+    background-color: #E62E5C
 }
 
 *::-moz-selection {
     color: #000;
-    background-color: #ffb700
+    background-color: #E62E5C
+}
+
+@layer base{
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #161616;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #E62E5C; 
+        border-radius: 5px;
+        border: 2px solid #161616;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #E62E5C;
+    }
+
+    * {
+        scrollbar-color: #E62E5C #161616;
+        scrollbar-width: thin;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito", system-ui, sans-serif;
     padding-top: 70px;
     overflow-x: hidden;
     position: relative;
@@ -34,7 +63,7 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/amigos.webp");
+    background-image: url("/assets/img/amigos.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
