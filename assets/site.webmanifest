@@ -1,0 +1,21 @@
+{
+    "name": "Auto Guía",
+    "short_name": "Auto Guía",
+    "description": "Encuentra especificaciones detalladas, comentarios de expertos y comparaciones de marcas y modelos para elegir tu auto ideal.",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "background_color": "#ffffff",
+    "theme_color": "#E62E5C",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
