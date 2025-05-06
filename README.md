@@ -4,7 +4,7 @@ Página web que proporciona información sobre diversas marcas y modelos de auto
 ![autoguiadesk_github](https://github.com/user-attachments/assets/ef59b8a0-0764-4a3a-b2a1-865f957d1fba)
 ![autoguiamov_github](https://github.com/user-attachments/assets/5bc11700-f6a8-4c76-966a-fa10d81a3f6c)
 
-🔗 **Visita el sitio aquí**: [Auto Guía](https://autoguia.netlify.app)  
+🔗 **Visitar sitio**: [https://autoguia.netlify.app](https://autoguia.netlify.app)  
 
 ## Instalación
 
