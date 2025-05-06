@@ -7,7 +7,7 @@
 }
 
 .form-tittle {
-    font-weight: normal;
+    font-size: 20px;
     color: #efd70D;
     text-align: center;
     padding: 14px;
@@ -44,7 +44,6 @@
     border-radius: 4px;
     font-size: 14px;
     color: #fff;
-
 }
 
 textarea {
@@ -58,7 +57,7 @@ textarea {
     outline: none;
     background: #efba0d;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     font-weight: bold;
     color: #000000;
@@ -70,7 +69,7 @@ textarea {
 }
 
 .btn-enviar:hover {
-    background: #f297;
+    background: #E62E5C;
 }
 
 .mensaje-confirmacion {

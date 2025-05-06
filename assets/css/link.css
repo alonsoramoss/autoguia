@@ -34,12 +34,12 @@
 .brand-header {
     color: white;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .brand-description {
-    font-size: 0.8rem;
+    font-size: 14px;
     color: white;
     text-align: center;
     padding: 0 10px;
