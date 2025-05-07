@@ -1,27 +1,35 @@
-
-.section {
+.section-video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px auto;
+    padding: 50px 20px;
+    margin-bottom: 26px;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.content-container {
-    width: 80%;
-    max-width: 800px;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+.section-video h1 {
+    background-color: #0004ff4b;
+    color: #00a6ff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+    padding: 5px 10px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(236, 12, 12, 0.959);
 }
 
-.content-container-fin {
-    width: 80%;
-    max-width: 800px;
+.video-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.content-container, .content-container-fin {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 20px 20px 10px;
+    border-radius: 6px;
     box-shadow: 0 2px 4px rgba(236, 12, 12, 0.959);
 }
 
@@ -30,37 +38,82 @@
     justify-content: center;
     gap: 20px;
     align-items: center;
+    flex-direction: column;
 }
 
-iframe {
-    width: 80%;
-    max-width: 700px;
-    height: 200px;
+.content-item iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 100%;
     border: none;
 }
 
 .content-text {
     flex-grow: 1;
+    margin-top: 10px;
+    text-align: center;
 }
 
 h3 {
     margin: 0;
     font-size: 20px;
     color: #000000;
+    font-weight: bold;
 }
 
 p {
-    margin: 5px 0 0;
+    margin: 10px 0;
     color: #000000;
     font-size: 14px;
 }
 
-@media (max-width: 600px) {
-    .content-item {
-        flex-direction: column;
+@media (max-width: 768px) {
+    .section-video h1 {
+        font-size: 35px;
     }
 
-    h3{
-        text-align: center;
+    .video-grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-video h1 {
+        font-size: 25px;
+    }
+
+    .content-container, .content-container-fin {
+        padding: 15px 15px 5px;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
     }
 }
