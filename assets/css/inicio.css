@@ -1,5 +1,5 @@
 .container {
-    margin: 26px auto;
+    margin: 26px auto 0;;
     width: 100%;
     max-width: 1500px;
 }
@@ -9,7 +9,7 @@
     align-items: center;
     padding: 5px 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
+    border-radius: 6px;
     margin-left: 20px; 
     margin-right: 20px;
     overflow: hidden; 
@@ -17,7 +17,7 @@
 
 .logo {
     width: 100px;
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 .search-form {
@@ -33,9 +33,16 @@
     font-size: 14px;
     margin-right: 10px;
     margin-left: 10px;
-    border-radius: 7px;
+    border-radius: 6px;
     border: 1px solid #3f3e3e;
     padding-left: 10px;
+    border: 1px solid #a7a6a6;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-input:focus {
+    border-color: #0077ff;
 }
 
 .search-icon {
@@ -45,14 +52,14 @@
 }
 
 .content {
-    padding: 20px;
+    padding: 20px 20px 50px;
 }
 
 .welcome-section {
     font-size: 14px;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
+    border-radius: 6px;
     margin-bottom: 20px;
 }
 
@@ -63,7 +70,7 @@
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .car-fin {
@@ -72,7 +79,7 @@
     align-items: center;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .car-img {
@@ -93,7 +100,6 @@
 
 .ejemplos {
     text-align: center;
-    margin-bottom: 5px;
 }
 
 .model-lists {
@@ -115,7 +121,7 @@
 
 @media (min-width: 768px) {
     .container {
-        margin: 29px auto;
+        margin: 29px auto 0;
     }
 
     .header {
@@ -147,7 +153,7 @@
 
 @media (max-width: 480px) {
     .container {
-        margin: 26px auto;
+        margin: 26px auto 0;
     }
 
     .header {
