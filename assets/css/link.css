@@ -1,68 +1,117 @@
 .container-link {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.head-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-link h1 {
+    background-color: #2ee69f;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+    font-size: 50px;
+    padding: 5px 10px;
+}
+
+.descripcion {
+    background-color: #2ee69f;
+    color: #000;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 5px 10px;
 }
 
 .brands-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 20px;
-    box-sizing: border-box;
 }
 
 .brand-cell {
-    background-color: rgba(39, 34, 34, 0.575);
+    background-color: rgba(255, 255, 255, 0.9);
     text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 210px;
-    margin: 0 auto;
-    border-radius: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-cell:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .brand-cell img {
-    width: 210px;
-    height: 100px;
+    width: 200px;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
 }
 
-.brand-cell .img2{
-    width: 250px;
+.brand-cell .img2 {
+    width: 240px;
 }
 
 .brand-header {
-    color: white;
-    text-align: center;
+    color: #000;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .brand-description {
     font-size: 14px;
-    color: white;
-    text-align: center;
+    color: #000;
     padding: 0 10px;
-    margin: 0;
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1200px) {
+    .container-link h1 {
+        font-size: 40px;
+    }
+
+    .descripcion {
+        font-size: 15px;
+    }
+    .brands-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
+    .container-link h1 {
+        font-size: 25px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+    }
+
     .brands-section {
         grid-template-columns: 1fr;
     }
 
     .brand-cell {
-        height: 225px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    .brands-section {
-        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
     }
 
-    .brand-cell {
-        height: 210px;
+    .brand-header {
+        font-size: 20px;
+    }
+
+    .brand-description {
+        font-size: 13px;
+    }
+
+    .brand-cell img,
+    .brand-cell .img2 {
+        width: 180px;
     }
 }
