@@ -1,13 +1,12 @@
-
 .contenedor {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
-    padding: 0 15px;
-    margin-bottom: 50px;
+    padding: 50px 20px 100px;
 }
 
 .form-tittle {
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 40px;
     color: #efd70D;
     text-align: center;
     padding: 14px;
@@ -19,10 +18,8 @@
 
 .form {
     background: rgba(25, 24, 24, 0.789);
-    padding: 5px 35px;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+    padding: 20px 34px;
+    border-radius: 6px;
 }
 
 .form-label {
@@ -33,7 +30,6 @@
 }
 
 .form-input {
-    font-family: "Nunito", sans-serif;
     background: rgba(0, 0, 0, 0.7);
     border: none;
     outline: none;
@@ -41,7 +37,7 @@
     width: 100%;
     padding: 12px;
     margin-bottom: 12px;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 14px;
     color: #fff;
 }
@@ -51,12 +47,20 @@ textarea {
     height: 100px; 
 }
 
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group-medio {
+    width: 48%;
+}
+
 .btn-enviar {
-    font-family: "Nunito", sans-serif;
     width: 50%;
     outline: none;
     background: #efba0d;
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: 14px;
     border: none;
     font-weight: bold;
@@ -65,7 +69,7 @@ textarea {
     cursor: pointer;
     transition: all .5s;
     display: block;
-    margin: 0 auto;
+    margin: 14px auto;
 }
 
 .btn-enviar:hover {
@@ -79,4 +83,30 @@ textarea {
     font-size: medium;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: -42px;
+}
+
+@media (max-width: 768px) {
+    .form {
+        padding: 15px 29px;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-group-medio {
+        width: 100%;
+    }
+
+    .contenedor {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-tittle {
+        font-size: 35px;
+    }
 }
