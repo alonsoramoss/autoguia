@@ -3,7 +3,15 @@ document.querySelectorAll("nav a, footer a").forEach(anchor => {
         e.preventDefault();
 
         const target = document.querySelector(this.getAttribute("href"));
-        const offset = window.innerWidth <= 768 ? 50 : 100;
+        let offset;
+        
+        if (window.innerWidth <= 491) {
+            offset = 60;
+        } else if (window.innerWidth <= 768) {
+            offset = 80;
+        } else {
+            offset = 110;
+        }
 
         window.scrollTo({
             top: target.offsetTop - offset,
