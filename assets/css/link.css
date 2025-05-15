@@ -1,7 +1,8 @@
 .container-link {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 0 20px;
+    margin: 100px auto 0 auto;
     box-sizing: border-box;
 }
 
@@ -16,15 +17,15 @@
     color: #000;
     text-align: center;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 45px;
     padding: 5px 10px;
 }
 
-.descripcion {
+.description {
     background-color: #2ee69f;
     color: #000;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 10px;
 }
 
@@ -49,14 +50,24 @@
 }
 
 .brand-cell img {
-    width: 200px;
+    max-width: 100%;
     height: auto;
-    max-height: 100px;
     object-fit: contain;
 }
 
-.brand-cell .img2 {
-    width: 240px;
+.brand-cell .img-toyota {
+    width: 155px;
+    height: auto;
+}
+
+.brand-cell .img-chevrolet, .brand-cell .img-audi {
+    height: 100px;
+    width: auto;
+}
+
+.brand-cell .img-bentley {
+    width: 290px;
+    height: 100px;
 }
 
 .brand-header {
@@ -73,13 +84,6 @@
 }
 
 @media (max-width: 1200px) {
-    .container-link h1 {
-        font-size: 40px;
-    }
-
-    .descripcion {
-        font-size: 15px;
-    }
     .brands-section {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -87,19 +91,34 @@
 
 @media (max-width: 768px) {
     .container-link h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
-    .descripcion {
+    .description {
         font-size: 14px;
     }
 
     .brands-section {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .brand-cell {
         padding: 15px;
+    }
+
+    .brand-cell .img-chevrolet {
+        width: 260px;
+        height: 100px;
+    }
+
+    .brand-cell .img-audi {
+        width: 240px;
+        height: 100px;
+    }
+
+    .brand-cell .img-bentley {
+        width: 240px;
+        height: 100px;
     }
 
     .brand-header {
@@ -107,11 +126,33 @@
     }
 
     .brand-description {
-        font-size: 13px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 590px) {
+    .brands-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-link h1 {
+        font-size: 25px;
     }
 
-    .brand-cell img,
-    .brand-cell .img2 {
-        width: 180px;
+    .brand-cell .img-chevrolet {
+        width: 240px;
+        height: 100px;
+    }
+
+    .brand-cell .img-audi {
+        width: 220px;
+        height: 100px;
+    }
+
+    .brand-cell .img-bentley {
+        width: 220px;
+        height: 100px;
     }
 }
