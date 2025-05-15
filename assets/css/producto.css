@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
+    margin: 100px auto 0 auto;
 }
 
 .section-producto h1 {
@@ -52,6 +52,7 @@ h2 {
 
 .brand-logo {
     height: 26px;
+    pointer-events: none;
 }
 
 table {
@@ -72,6 +73,7 @@ td {
     height: auto;
     max-width: 350px;
     max-height: 200px;
+    pointer-events: none;
 }
 
 @media (min-width: 768px) {
@@ -80,15 +82,8 @@ td {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .section-producto h1 {
-        font-size: 20px;
-    }
-
-
-    table,
-    th,
-    td {
-        font-size: 14px;
+        font-size: 25px;
     }
 }
