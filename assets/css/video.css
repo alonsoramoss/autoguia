@@ -13,7 +13,7 @@
     color: #00a6ff;
     text-align: center;
     font-weight: normal;
-    font-size: 45px;
+    font-size: 2.81rem;
     padding: 5px 10px;
     margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@
 
 h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #000000;
     text-align: center;
     font-weight: bold;
@@ -64,12 +64,12 @@ h3 {
 p {
     margin: 10px 0;
     color: #000000;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 @media (max-width: 768px) {
     .section-video h1 {
-        font-size: 35px;
+        font-size: 2.19rem;
     }
 
     .video-grid-container {
@@ -88,17 +88,17 @@ p {
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
 
 @media (max-width: 480px) {
     .section-video h1 {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 
     .content-container, .content-container-fin {
@@ -110,10 +110,10 @@ p {
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }

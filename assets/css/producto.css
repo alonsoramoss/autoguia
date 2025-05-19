@@ -10,7 +10,7 @@
     color: #000;
     text-align: center;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 2.19rem;
     margin: 0 20px ;
     padding: 5px 10px;
 }
@@ -45,7 +45,7 @@ td p{
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: black;
     margin: 0;
 }
@@ -78,12 +78,12 @@ td {
 
 @media (min-width: 768px) {
     .section-producto h1 {
-        font-size: 45px;
+        font-size: 2.81rem;
     }
 }
 
 @media (max-width: 480px) {
     .section-producto h1 {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 }

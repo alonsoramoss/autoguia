@@ -7,7 +7,7 @@
 
 .form-tittle {
     font-weight: normal;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #efd70D;
     text-align: center;
     padding: 14px;
@@ -26,7 +26,7 @@
 .form-label {
     display: block;
     color: #efd70D;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 8px;
 }
 
@@ -39,7 +39,7 @@
     padding: 12px;
     margin-bottom: 12px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #fff;
 }
 
@@ -62,7 +62,7 @@ textarea {
     outline: none;
     background: #efba0d;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 0.875rem;
     border: none;
     font-weight: bold;
     color: #000000;
@@ -81,7 +81,7 @@ textarea {
     display: none;
     text-align: center;
     color: #ff9d00;
-    font-size: medium;
+    font-size: 1rem;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: -42px;
@@ -89,7 +89,7 @@ textarea {
 
 @media (max-width: 767px) {
     .form-tittle {
-        font-size: 35px;
+        font-size: 2.19rem;
     }
 
     .form {
@@ -112,6 +112,6 @@ textarea {
 
 @media (max-width: 480px) {
     .form-tittle {
-        font-size: 25px;
+        font-size: 1.56rem;
     }
 }
