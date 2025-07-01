@@ -13,13 +13,13 @@
 }
 
 *::selection {
-    color: #000;
-    background-color: #E62E5C
+    color: #ffffff;
+    background-color: #db3328
 }
 
 *::-moz-selection {
-    color: #000;
-    background-color: #E62E5C
+    color: #ffffff;
+    background-color: #db3328
 }
 
 @layer base{
@@ -32,17 +32,17 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #E62E5C; 
+        background-color: #db3328; 
         border-radius: 5px;
         border: 2px solid #161616;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background-color: #E62E5C;
+        background-color: #EA857F;
     }
 
     * {
-        scrollbar-color: #E62E5C #161616;
+        scrollbar-color: #db3328 #161616;
         scrollbar-width: thin;
     }
 }
