@@ -41,18 +41,18 @@
     padding: 20px;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: box-shadow 0.2s ease;
 }
 
 .brand-cell:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgb(0, 0, 0);
 }
 
 .brand-cell img {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    pointer-events: none;
 }
 
 .brand-cell .img-toyota {
@@ -81,6 +81,32 @@
     color: #000;
     padding: 0 10px;
     margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.brand-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #2ee69f;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.brand-btn:hover {
+    background-color: #24b97e;
+    transform: scale(1.05);
+}
+
+.btn-icon {
+    width: 18px;
+    height: 18px;
+    display: block;
 }
 
 @media (max-width: 1200px) {
