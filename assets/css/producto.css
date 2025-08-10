@@ -73,7 +73,12 @@ td {
     height: auto;
     max-width: 350px;
     max-height: 200px;
+    transition: transform 0.2s ease;
     pointer-events: none;
+}
+
+td:hover .car-image {
+    transform: scale(1.05);
 }
 
 @media (min-width: 768px) {
