@@ -1,7 +1,7 @@
 {
     "name": "Auto Guía",
     "short_name": "Auto Guía",
-    "description": "Encuentra especificaciones detalladas, comentarios de expertos y comparaciones de marcas y modelos para elegir tu auto ideal.",
+    "description": "Encuentra especificaciones detalladas, reseñas de expertos y comparaciones de marcas y modelos de automóviles para ayudarte a elegir tu auto ideal.",
     "start_url": "/",
     "display": "minimal-ui",
     "background_color": "#ffffff",
